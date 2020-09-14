@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.msbuild" Version="2.9.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pizzabox.AppLibrary\Pizzabox.AppLibrary.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <DebugType>full</DebugType>
+    <IsPackable>false</IsPackable>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

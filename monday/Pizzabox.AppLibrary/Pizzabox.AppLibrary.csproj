@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="system.componentmodel.annotations" Version="4.7.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <DebugType>full</DebugType>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
