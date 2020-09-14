@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Pizzabox.AppLibrary\Pizzabox.AppLibrary.csproj" />
+    <ProjectReference Include="..\Pizzabox.ClientConsole\Pizzabox.ClientConsole.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
